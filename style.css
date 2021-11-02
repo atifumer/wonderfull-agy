@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+.h1 {
+    font-size: 3em;
+}
+
+.h2 {
+    font-size: 2em;
+}
+
+.h3 {
+    font-size: 1.5em;
+}
+
+.hero {
+    background: linear-gradient( to right, grey, hotpink);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: green;
+}
+
+.menu {
+    width: 100%;
+    background-color: black;
+    height: 40px;
+}
+
+.menu ul {
+    text-align: center;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline;
+}
+
+.menu ul li a {
+    border: none;
+    padding: 0px 15px 0px 15px;
+    line-height: 40px;
+    color: green;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 35px 15px 35px 15px;
+    background: linear-gradient(to left, greenyellow, hotpink);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.doc2 {
+    margin-top: 2%;
+    color: darkcyan;
+}
+
+.doc {
+    margin-top: 5%;
+    color: darkgreen;
+}
+
+.sec1 {
+    margin-top: 2%;
+    color: darkcyan
+}
+
+.sec2 {
+    margin-top: 5%;
+    color: darkgreen;
+}
+
+.sec3 {
+    margin-top: 2%;
+    color: darkcyan;
+}
+
+.sec4 {
+    margin-top: 5%;
+    color: darkgreen
+}
+
+.horn {
+    background-color: lightcoral;
+    color: greenyellow;
+    width: 100%;
+    text-align: center;
+}
+
+.end {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.end2 {
+    width: 100%;
+    height: 100%;
+}
+
+.pera0 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30%;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+}
+
+.btn000 {
+    border: none;
+    font-size: 23px;
+    background-color: black;
+    color: springgreen;
+}
+
+.btn000:hover {
+    background-color: orangered;
+    color: silver;
+}
+
+.second {
+    border: solid 5px black;
+    height: 15%;
+    background-color: black;
+    color: silver;
+}
+
+.color {
+    border: 1px solid green;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.lastonep {
+    text-align: center;
+}
+
+.lastonep:hover {
+    color: lightsteelblue;
+}
+
+.zeros {
+    float: right;
+}
+
+.zeros:hover {
+    color: lightgreen;
+}
